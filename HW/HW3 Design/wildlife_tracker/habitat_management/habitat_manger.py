@@ -1,4 +1,5 @@
 from typing import Optional, List
+from wildlife_tracker.habitat_managment.habitat import Habitat
 
 class HabitatManager:
 
