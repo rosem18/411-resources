@@ -1,5 +1,5 @@
 from typing import Optional
-from wildlife_tracker.migration_path.migration import Migration
+from wildlife_tracker.migration_management.migration_path import MigrationPath
 
 class MigrationPath:
     def __init__(self) -> None:
