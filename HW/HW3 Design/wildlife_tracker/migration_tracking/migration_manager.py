@@ -1,5 +1,5 @@
 from typing import Optional
-
+from wildlife_tracker.migration_managment.migration import Migration
 
 class MigrationManager:
     
