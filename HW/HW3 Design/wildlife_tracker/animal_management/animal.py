@@ -9,7 +9,7 @@ class Animal:
                  health_status: Optional[str] = None)
         self.animal_id = animal_id
         self.age = age
-        self.animals = animals
+        self.animals = animals or []
         self.species = species
         self.health_status = health_status
 
